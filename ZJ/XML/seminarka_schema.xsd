@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="users">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="user"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="user">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="xs:integer" />
+				<xs:element name="jmeno" type="xs:string" />
+				<xs:element name="prijmeni" type="xs:string" />
+				<xs:element name="uzivatelske_jmeno" type="xs:string" />
+				<xs:element name="email" type="xs:string" />
+				<xs:element name="mobil" type="xs:integer" />
+				<xs:element name="hry" type="hry" />
+				<xs:element name="wishlists" type="wishlists" />
+				<xs:element name="platformy" type="platforma_list"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="VIP" type="xs:boolean" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="platforma">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="xs:integer" />
+				<xs:element name="nazev" type="xs:string" />
+				<xs:element name="stranka" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="platforma_list">
+		<xs:sequence>
+			<xs:element ref="platforma" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="hra">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="xs:integer" />
+				<xs:element name="titul" type="xs:string" />
+				<xs:element name="zanr" type="xs:string" />
+				<xs:element name="popis" type="xs:string" />
+				<xs:element name="rok_vydani" type="xs:decimal" />
+				<xs:element name="cena" type="xs:float" />
+				<xs:element name="mena" type="xs:string"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="oblibene" type="xs:boolean" />
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="hry">
+		<xs:sequence>
+			<xs:element ref="hra" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="group">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="xs:integer" />
+				<xs:element minOccurs="1" maxOccurs="1" ref="hra" />
+			</xs:sequence>
+			<xs:attribute name="vlastnictvi" type="xs:boolean" />
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="group_list">
+		<xs:sequence>
+			<xs:element ref="group" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="wishlist">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="id" type="xs:integer" />
+				<xs:element name="nazev" type="xs:string" />
+				<xs:element name="datum_vytvoreni" type="xs:date" />
+				<xs:element name="groups" type="group_list" />
+			</xs:sequence>
+			<xs:attribute name="verejny" type="xs:boolean" />
+			<xs:attribute name="aktivni" type="xs:boolean" />
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="wishlists">
+		<xs:sequence>
+			<xs:element ref="wishlist" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

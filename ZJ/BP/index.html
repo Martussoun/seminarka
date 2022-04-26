@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>Informace o BIOSu</title>
+        <link rel="stylesheet" href="BP_styl.css" />
+    </head>
+    <body class="body">
+        <nav class="navigation">
+            <b>
+            <a href= #zaklad>Základní funkce</a>
+            <a href= #advanced>Pokročilá nastavení</a>
+            <a href= #power>Nastavení napájení</a>
+            <a href= #hwmonitor>HW monitor</a>
+        </b>
+        </nav>
+        <header class="header">
+            <h1>BIOS</h1>
+        </header>
+        <article>
+            <p>BIOS (Basic Input Output System) je „základní vstupní/výstupní systém“ uložený v paměťovém čipu na základní desce.</p>
+            <header class="header"><h2>Konfigurace BIOSu</h2></header>
+            <p>
+                Díky prostředím BIOS a UEFI lze měnit různá nastavení hardwaru a například regulovat výkon počítače, popřípadě řešit problémy se stabilitou.
+                U počítačů je pro vstoupení do těchto rozhraní většinou nutné zmáčknout danou klávesu při spuštění.
+                Každý výrobce může tyto klávesy nastavit dle své potřeby, ale až na výjimky jsou to klávesy F2 a DEL. 
+            </p>
+            <p>
+                Konfiguraci je samozřejmě možné vrátit do původního stavu přímo z rozhraní.
+                Pokud není možné dostat se do rozhraní, lze konfiguraci resetovat vyjmutím baterie ze základní desky nebo přepínačem (jumperem), který je u některých desek z důvodu pohodlí nahrazován tlačítkem.
+            </p>
+            <section id="zaklad">
+            <header class="header"><h3>Základní funkce a nastavení</h3></header>
+                <p>
+                    Utilita BIOS SETUP má jednodušší grafické prostředí a ovládá se klávesnicí.
+                    Konfigurace se ukládá do CMOS.
+                </p>
+                <aside class="aside">
+                    <h5>CMOS</h5>
+                    <p>
+                        Zkratka CMOS je název malé paměti, kam si BIOS všechna nastavení ukládá a kterou napájí malá baterie umístěná na základní desce.
+                    </p>
+                </aside>
+            <section>
+            <header class="header"><h4>Standard CMOS Features</h4></header>
+                <p>
+                    Základní nastavení BIOSu. Nastavují se zde hodiny a čas, instalovaná záznamová zařízení, typ displeje apod.
+                    Umožňuje změny parametrů disků a jejich detekci.
+                </p>
+            </section>
+            <section id="advanced">
+            <header class="header"><h4>Advanced BIOS Features</h4></header>
+                <p>
+                    Nastavení operačního systému a bootovací sekvence. Jsou zde i nekterá další nastavení CPU a Chipsetu. 
+                </p>
+                <ul>
+                    <li><b>Quick Booting</b> – zrychlí průběh POST při startu počítače</li>
+                    <li><b>IOAPIC function</b> – umožňuje operačnímu systému správu přerušení. Dovoluje sdílet systémové prostředky nezávislými zařízeními</li>
+                    <li><b>BootUp Num-Lock LED</b> – aktivuje při možnosti On numerický blok klávesnice</li>
+                    <li><b>MPS Table Version</b> – podpora multiprocesorových systémů</li>
+                </ul>
+            </section>
+            <section>
+            <header class="header"><h4>Integrated Peripheals</h4></header>
+                <p>
+                    Možnost nastavení interních periferií. Jako třeba USB, IEEE 1394(Firewire), paralelní a sériové porty, integrovaná zvuková a síťová karta. 
+                </p>
+            </section>
+            <section id="power">
+            <header class="header"><h4>Power Management Setup</h4></header>
+                <p>
+                    Podrobnější nastavení napájení komponentů a funkce pro úsporu energie 
+                </p>
+                <ul>
+                    <li><b>ACPI Function</b>  – aktivuje či deaktivuje pokročilá nastavení napájení</li>
+                    <li><b>ACPI Standby State</b> – modifikuje módy ACPI pro úsporu energie</li>
+                    <li><b>Suspend Time Out (Minute)</b> – při neaktivitě systému vypne vše kromě CPU</li>
+                    <li><b>Power Button Function</b> – nastaví funkci tlačítka pro zapnutí PC na jiné než On/Off</li>
+                    <li><b>Restore On AC Power Loss</b> – určuje další postup při výpadku energie a zachová ve vypnutém stavu nebo počítač znovu zapne</li>
+                    <li><b>Wakeup Event Setup</b> – podmenu pro nastavení způsobu reaktivace počítače</li>
+                </ul>
+            </section>
+            <section id="hwmonitor">
+            <header class="header"><h4>H/W Monitor</h4></header>
+                <p>
+                    Zobrazuje teploty a napětí vybraných komponentů a umožňuje konfiguraci pro dosažení změn. Zároveň reguluje rychlosti větráků. 
+                </p>
+                <ul>
+                    <li><b>Chassis Intrusion</b> – zobrazí varování, pokud by byla otevřena skříň počítače</li>
+                    <li><b>CPU FAN PIN Select</b> – počet pinů konektoru pro aktivní chladič procesoru</li>
+                    <li><b>Smart Fan Target</b> – cílová teplota pro regulaci otáček chladiče v závislosti na teploté CPU</li>
+                    <li><b>Smart Fan Tolerance</b> – rozmezí teplot při aktivované předchozí položce</li>
+                    <li><b>Min. FAN Speed (%)</b> – minimální povolená hodnota otáček větráku CPU v % z maxima</li>
+                    <li><b>PC Health Status</b> – aktuální teploty a napětí komponent</li>
+                </ul>
+            </section>
+            </section>
+        </article>
+        <footer>
+            <p>
+                Autor: Martin Knoll
+            </p>
+        </footer>
+    </body>
+</html>

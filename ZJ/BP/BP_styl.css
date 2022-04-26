@@ -1,0 +1,29 @@
+.navigation {
+	position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: ghostwhite;
+}
+
+.aside{
+    width: 40%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+    background-color: bisque;
+    color: black;
+    border: 2px dashed grey;
+}
+
+.body{
+    background-color: ivory;
+    color: #2f2f2f;
+    text-align: left;
+}
+
+.header{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}

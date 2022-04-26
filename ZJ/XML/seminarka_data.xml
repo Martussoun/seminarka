@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="seminarka_styl.xsl"?>
+
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="seminarka_schema.xsd">
+
+	<user VIP="true">
+		<id>0</id>
+		<jmeno>Petr</jmeno>
+		<prijmeni>Tupý</prijmeni>
+		<uzivatelske_jmeno>Zabijak123</uzivatelske_jmeno>
+		<email>petrik04@gmail.com</email>
+		<mobil>720884213</mobil>
+		<hry>	
+			<hra oblibene="true">
+				<id>0</id>
+				<titul>Rise of the Tomb Raider</titul>
+				<zanr>Dobrodružné</zanr>
+				<popis>Rise of the Tomb Raider popisuje osudy Lary Croft a Jonaha Maiava v jejich pátrání po starověkém městě Kitezh na Sibiři, které bylo postaveno v 13. století, a jak Lara věří, skrývá tajemství k nesmrtelnosti. V závodě s Trinity, dobře financovanou organizací zajímající se o nadpřirozeno, musí Lara bojovat s lidmi, zvěří a přírodou, pokud chce najít pravdu, skrývající se za mýty a stát se tím, kým je předurčena se stát.</popis>
+				<rok_vydani>2015</rok_vydani>
+				<cena>29.99</cena>
+				<mena>EUR</mena>
+			</hra>
+			<hra oblibene="true">
+				<id>1</id>
+				<titul>Counter-Strike: Global Offensive</titul>
+				<zanr>Střílečka</zanr>
+				<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+				<rok_vydani>2012</rok_vydani>
+				<cena>0.00</cena>
+				<mena>EUR</mena>
+			</hra>
+		</hry>
+		<wishlists>
+			<wishlist verejny="true" aktivni="true">
+				<id>0</id>
+				<nazev>Tochci</nazev>
+				<datum_vytvoreni>2014-06-07</datum_vytvoreni>
+				<groups>
+					<group vlastnictvi="true">
+						<id>0</id>
+						<hra oblibene="true">
+							<id>1</id>
+							<titul>Rise of the tomb raider</titul>
+							<zanr>Akcni</zanr>
+							<popis>Rise of the Tomb Raider popisuje osudy Lary Croft a Jonaha Maiava v jejich pátrání po starověkém městě Kitezh na Sibiři, které bylo postaveno v 13. století, a jak Lara věří, skrývá tajemství k nesmrtelnosti. V závodě s Trinity, dobře financovanou organizací zajímající se o nadpřirozeno, musí Lara bojovat s lidmi, zvěří a přírodou, pokud chce najít pravdu, skrývající se za mýty a stát se tím, kým je předurčena se stát.</popis>
+							<rok_vydani>2015</rok_vydani>
+							<cena>29.99</cena>
+							<mena>EUR</mena>
+						</hra>
+					</group>
+				</groups>
+			</wishlist>
+		</wishlists>
+		<platformy>
+			<platforma>
+				<id>0</id>
+				<nazev>Steam</nazev>
+				<stranka>https://store.steampowered.com/</stranka>
+			</platforma>
+		</platformy>
+	</user>
+
+	<user VIP="true">
+		<id>1</id>
+		<jmeno>Vojtěch</jmeno>
+		<prijmeni>Ostrý</prijmeni>
+		<uzivatelske_jmeno>iceteaEnjoyer</uzivatelske_jmeno>
+		<email>asdfgj@post.cz</email>
+		<mobil>779546218</mobil>
+		<hry>	
+			<hra oblibene="true">
+				<id>1</id>
+				<titul>Counter-Strike: Global Offensive</titul>
+				<zanr>Střílečka</zanr>
+				<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+				<rok_vydani>2012</rok_vydani>
+				<cena>0.00</cena>
+				<mena>EUR</mena>
+			</hra>
+		</hry>
+		<wishlists>
+			<wishlist verejny="true" aktivni="false">
+				<id>0</id>
+				<nazev>cskooo</nazev>
+				<datum_vytvoreni>2011-06-07</datum_vytvoreni>
+				<groups>
+					<group vlastnictvi="true">
+						<id>0</id>
+						<hra oblibene="true">
+							<id>1</id>
+							<titul>Counter-Strike: Global Offensive</titul>
+							<zanr>Střílečka</zanr>
+							<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+							<rok_vydani>2012</rok_vydani>
+							<cena>0.00</cena>
+							<mena>EUR</mena>
+						</hra>
+					</group>
+				</groups>
+			</wishlist>
+		</wishlists>
+		<platformy>
+			<platforma>
+				<id>0</id>
+				<nazev>Steam</nazev>
+				<stranka>https://store.steampowered.com/</stranka>
+			</platforma>
+		</platformy>
+	</user>
+
+	<user VIP="true">
+		<id>2</id>
+		<jmeno>Jan</jmeno>
+		<prijmeni>Omáčka</prijmeni>
+		<uzivatelske_jmeno>n00bDestroyer</uzivatelske_jmeno>
+		<email>johnnyom@gmail.com</email>
+		<mobil>731485165</mobil>
+		<hry>	
+			<hra oblibene="false">
+				<id>2</id>
+				<titul>The Binding of Isaac</titul>
+				<zanr>Rogue-like</zanr>
+				<popis>The Binding of Isaac je akční RPG střílečka s náhodně generovanými úrovněmi se silnými elementy žánru Rogue-like. Během Isaacovy cesty bude hráč nacházet bizarní poklady, které změní samotnou Isaacovu podstatu, propůjčí mu superschopnosti a dovolí mu tak vymýtit neskutečné příšery, objevovat tajemství a probojovat si cestu ke svobodě.</popis>
+				<rok_vydani>2011</rok_vydani>
+				<cena>4.99</cena>
+				<mena>EUR</mena>
+			</hra>
+			<hra oblibene="true">
+				<id>3</id>
+				<titul>Portal 2</titul>
+				<zanr>FPS puzzle</zanr>
+				<popis>pokračování původní hry Portal, která byla v roce 2007 vydána pouze jako doplněk balíčku Orange box. Hlavní postavou hry je opět Chell, původně pouze testovací objekt v Aperture Science. Chell se tentokrát probouzí ve své stázové komoře a snaží se nadobro již opustit ruiny bývalého komplexu Aperture. Hra také nabízí hru více hráčů v kooperativním režimu. Dva hráči mohou hrát za roboty Atlas a P-Body vytvořené GLaDOS za účelem výzkumu bez rizika nevypočitatelných lidských faktorů chování. Každý hráč má vlastní portálovou pistoli a prochází jednotlivé místnosti společně.</popis>
+				<rok_vydani>2011</rok_vydani>
+				<cena>8.19</cena>
+				<mena>EUR</mena>
+			</hra>
+		</hry>
+		<wishlists>
+			<wishlist verejny="false" aktivni="false">
+				<id>0</id>
+				<nazev>Nepojmenovaný</nazev>
+				<datum_vytvoreni>2006-11-09</datum_vytvoreni>
+				<groups>
+					<group vlastnictvi="true">
+						<id>0</id>
+						<hra oblibene="true">
+							<id>0</id>
+							<titul>Portal 2</titul>
+							<zanr>FPS puzzle</zanr>
+							<popis>pokračování původní hry Portal, která byla v roce 2007 vydána pouze jako doplněk balíčku Orange box. Hlavní postavou hry je opět Chell, původně pouze testovací objekt v Aperture Science. Chell se tentokrát probouzí ve své stázové komoře a snaží se nadobro již opustit ruiny bývalého komplexu Aperture. Hra také nabízí hru více hráčů v kooperativním režimu. Dva hráči mohou hrát za roboty Atlas a P-Body vytvořené GLaDOS za účelem výzkumu bez rizika nevypočitatelných lidských faktorů chování. Každý hráč má vlastní portálovou pistoli a prochází jednotlivé místnosti společně.</popis>
+							<rok_vydani>2011</rok_vydani>
+							<cena>8.19</cena>
+							<mena>EUR</mena>
+						</hra>
+					</group>
+				</groups>
+			</wishlist>
+		</wishlists>
+		<platformy>
+			<platforma>
+				<id>0</id>
+				<nazev>Steam</nazev>
+				<stranka>https://store.steampowered.com/</stranka>
+			</platforma>
+		</platformy>
+	</user>
+
+	<user VIP="true">
+		<id>3</id>
+		<jmeno>Jakub</jmeno>
+		<prijmeni>Frajer</prijmeni>
+		<uzivatelske_jmeno>Supervize</uzivatelske_jmeno>
+		<email>nicitel90@seznam.cz</email>
+		<mobil>725584235</mobil>
+		<hry>	
+			<hra oblibene="true">
+				<id>0</id>
+				<titul>Rise of the Tomb Raider</titul>
+				<zanr>Dobrodružné</zanr>
+				<popis>Rise of the Tomb Raider popisuje osudy Lary Croft a Jonaha Maiava v jejich pátrání po starověkém městě Kitezh na Sibiři, které bylo postaveno v 13. století, a jak Lara věří, skrývá tajemství k nesmrtelnosti. V závodě s Trinity, dobře financovanou organizací zajímající se o nadpřirozeno, musí Lara bojovat s lidmi, zvěří a přírodou, pokud chce najít pravdu, skrývající se za mýty a stát se tím, kým je předurčena se stát.</popis>
+				<rok_vydani>2015</rok_vydani>
+				<cena>29.99</cena>
+				<mena>EUR</mena>
+			</hra>
+			<hra oblibene="true">
+				<id>1</id>
+				<titul>Counter-Strike: Global Offensive</titul>
+				<zanr>Střílečka</zanr>
+				<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+				<rok_vydani>2012</rok_vydani>
+				<cena>0.00</cena>
+				<mena>EUR</mena>
+			</hra>
+		</hry>
+		<wishlists>
+			<wishlist verejny="true" aktivni="true">
+				<id>0</id>
+				<nazev>Sandbox</nazev>
+				<datum_vytvoreni>2010-01-02</datum_vytvoreni>
+				<groups>
+					<group vlastnictvi="false">
+						<id>0</id>
+						<hra oblibene="false">
+							<id>4</id>
+							<titul>Terraria</titul>
+							<zanr>Sandbox</zanr>
+							<popis>Hra je zaměřená na průzkum světa, budování a boji s nepřáteli - hlavně tedy s bossy - v náhodně generovaném 2D světě.</popis>
+							<rok_vydani>2011</rok_vydani>
+							<cena>9.99</cena>
+							<mena>EUR</mena>
+						</hra>
+					</group>
+				</groups>
+			</wishlist>
+		</wishlists>
+		<platformy>
+			<platforma>
+				<id>0</id>
+				<nazev>Steam</nazev>
+				<stranka>https://store.steampowered.com/</stranka>
+			</platforma>
+		</platformy>
+	</user>
+
+	<user VIP="true">
+		<id>4</id>
+		<jmeno>Otakar</jmeno>
+		<prijmeni>Pero</prijmeni>
+		<uzivatelske_jmeno>Bouchac99</uzivatelske_jmeno>
+		<email>otaper0@seznam.cz</email>
+		<mobil>738985148</mobil>
+		<hry>	
+			<hra oblibene="true">
+			<id>1</id>
+			<titul>The Binding of Isaac</titul>
+			<zanr>Rogue-like</zanr>
+			<popis>The Binding of Isaac je akční RPG střílečka s náhodně generovanými úrovněmi se silnými elementy žánru Rogue-like. Během Isaacovy cesty bude hráč nacházet bizarní poklady, které změní samotnou Isaacovu podstatu, propůjčí mu superschopnosti a dovolí mu tak vymýtit neskutečné příšery, objevovat tajemství a probojovat si cestu ke svobodě.</popis>
+			<rok_vydani>2011</rok_vydani>
+			<cena>4.99</cena>
+			<mena>EUR</mena>
+		</hra>
+			<hra oblibene="true">
+			<id>2</id>
+			<titul>Counter-Strike: Global Offensive</titul>
+			<zanr>Střílečka</zanr>
+			<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+			<rok_vydani>2012</rok_vydani>
+			<cena>0.00</cena>
+			<mena>EUR</mena>
+			</hra>
+		</hry>
+	<wishlists>
+		<wishlist verejny="true" aktivni="true">
+			<id>0</id>
+			<nazev>Novinky</nazev>
+			<datum_vytvoreni>2016-04-08</datum_vytvoreni>
+			<groups>
+				<group vlastnictvi="false">
+					<id>0</id>
+					<hra oblibene="false">
+						<id>5</id>
+						<titul>God of War</titul>
+						<zanr>Dobrodružné</zanr>
+						<popis>Pomstu olympským bohům má Kratos již dávno za sebou a teď se pohybuje v říši severských bohů a netvorů. V tomto tvrdém a nelítostném světě bude muset bojovat o přežití a současně učit svého syna, aby dokázal totéž…</popis>
+						<rok_vydani>2022</rok_vydani>
+						<cena>49.99</cena>
+						<mena>EUR</mena>
+					</hra>
+				</group>
+				<group vlastnictvi="false">
+					<id>1</id>
+					<hra oblibene="false">
+						<id>6</id>
+						<titul>DEATH STRANDING</titul>
+						<zanr>Dobrodružné</zanr>
+						<popis>Hráči ovládají kurýra Sama Portera Bridgese, kterého ztvárnil herec Norman Reedus, a jehož úkolem je doručovat zásoby do izolovaných kolonií a znovu je propojit prostřednictvím bezdrátové komunikační sítě.</popis>
+						<rok_vydani>2019</rok_vydani>
+						<cena>39.99</cena>
+						<mena>EUR</mena>
+					</hra>
+				</group>
+			</groups>
+		</wishlist>
+	</wishlists>
+	<platformy>
+		<platforma>
+			<id>0</id>
+			<nazev>Steam</nazev>
+			<stranka>https://store.steampowered.com/</stranka>
+		</platforma>
+	</platformy>
+</user>
+
+<user VIP="true">
+	<id>5</id>
+	<jmeno>Martin</jmeno>
+	<prijmeni>Klid</prijmeni>
+	<uzivatelske_jmeno>Chiller</uzivatelske_jmeno>
+	<email>vpohode@post.cz</email>
+	<mobil>728425987</mobil>
+	<hry>	
+		<hra oblibene="true">
+			<id>2</id>
+			<titul>The Binding of Isaac</titul>
+			<zanr>Rogue-like</zanr>
+			<popis>The Binding of Isaac je akční RPG střílečka s náhodně generovanými úrovněmi se silnými elementy žánru Rogue-like. Během Isaacovy cesty bude hráč nacházet bizarní poklady, které změní samotnou Isaacovu podstatu, propůjčí mu superschopnosti a dovolí mu tak vymýtit neskutečné příšery, objevovat tajemství a probojovat si cestu ke svobodě.</popis>
+			<rok_vydani>2011</rok_vydani>
+			<cena>4.99</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="true">
+			<id>1</id>
+			<titul>Counter-Strike: Global Offensive</titul>
+			<zanr>Střílečka</zanr>
+			<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+			<rok_vydani>2012</rok_vydani>
+			<cena>0.00</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="true">
+			<id>3</id>
+			<titul>Portal 2</titul>
+			<zanr>FPS puzzle</zanr>
+			<popis>pokračování původní hry Portal, která byla v roce 2007 vydána pouze jako doplněk balíčku Orange box. Hlavní postavou hry je opět Chell, původně pouze testovací objekt v Aperture Science. Chell se tentokrát probouzí ve své stázové komoře a snaží se nadobro již opustit ruiny bývalého komplexu Aperture. Hra také nabízí hru více hráčů v kooperativním režimu. Dva hráči mohou hrát za roboty Atlas a P-Body vytvořené GLaDOS za účelem výzkumu bez rizika nevypočitatelných lidských faktorů chování. Každý hráč má vlastní portálovou pistoli a prochází jednotlivé místnosti společně.</popis>
+			<rok_vydani>2011</rok_vydani>
+			<cena>8.19</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="false">
+			<id>5</id>
+			<titul>God of War</titul>
+			<zanr>Dobrodružné</zanr>
+			<popis>Pomstu olympským bohům má Kratos již dávno za sebou a teď se pohybuje v říši severských bohů a netvorů. V tomto tvrdém a nelítostném světě bude muset bojovat o přežití a současně učit svého syna, aby dokázal totéž…</popis>
+			<rok_vydani>2022</rok_vydani>
+			<cena>49.99</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="false">
+			<id>6</id>
+			<titul>DEATH STRANDING</titul>
+			<zanr>Dobrodružné</zanr>
+			<popis>Hráči ovládají kurýra Sama Portera Bridgese, kterého ztvárnil herec Norman Reedus, a jehož úkolem je doručovat zásoby do izolovaných kolonií a znovu je propojit prostřednictvím bezdrátové komunikační sítě.</popis>
+			<rok_vydani>2019</rok_vydani>
+			<cena>39.99</cena>
+			<mena>EUR</mena>
+		</hra>
+	</hry>
+	<wishlists>
+		<wishlist verejny="true" aktivni="true">
+			<id>0</id>
+			<nazev>Lara</nazev>
+			<datum_vytvoreni>2014-07-07</datum_vytvoreni>
+			<groups>
+				<group vlastnictvi="false">
+					<id>0</id>
+					<hra oblibene="false">
+						<id>0</id>
+						<titul>Rise of the Tomb Raider</titul>
+						<zanr>Dobrodružné</zanr>
+						<popis>Rise of the Tomb Raider popisuje osudy Lary Croft a Jonaha Maiava v jejich pátrání po starověkém městě Kitezh na Sibiři, které bylo postaveno v 13. století, a jak Lara věří, skrývá tajemství k nesmrtelnosti. V závodě s Trinity, dobře financovanou organizací zajímající se o nadpřirozeno, musí Lara bojovat s lidmi, zvěří a přírodou, pokud chce najít pravdu, skrývající se za mýty a stát se tím, kým je předurčena se stát.</popis>
+						<rok_vydani>2015</rok_vydani>
+						<cena>29.99</cena>
+						<mena>EUR</mena>
+					</hra>
+				</group>
+			</groups>
+		</wishlist>
+	</wishlists>
+	<platformy>
+		<platforma>
+			<id>0</id>
+			<nazev>Steam</nazev>
+			<stranka>https://store.steampowered.com/</stranka>
+		</platforma>
+		<platforma>
+			<id>1</id>
+			<nazev>GOG</nazev>
+			<stranka>https://www.gog.com/</stranka>
+		</platforma>
+	</platformy>
+</user>
+
+<user VIP="true">
+	<id>6</id>
+	<jmeno>Jiří</jmeno>
+	<prijmeni>Oblý</prijmeni>
+	<uzivatelske_jmeno>Dinnertime</uzivatelske_jmeno>
+	<email>jiroblee@email.cz</email>
+	<mobil>724582138</mobil>
+	<hry>	
+		<hra oblibene="true">
+		<id>2</id>
+		<titul>Counter-Strike: Global Offensive</titul>
+		<zanr>Střílečka</zanr>
+		<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+		<rok_vydani>2012</rok_vydani>
+		<cena>0.00</cena>
+		<mena>EUR</mena>
+		</hra>
+	</hry>
+<wishlists>
+	<wishlist verejny="false" aktivni="false">
+		<id>0</id>
+		<nazev>csgo</nazev>
+		<datum_vytvoreni>2011-01-01</datum_vytvoreni>
+		<groups>
+			<group vlastnictvi="true">
+				<id>0</id>
+				<hra oblibene="true">
+					<id>2</id>
+					<titul>Counter-Strike: Global Offensive</titul>
+					<zanr>Střílečka</zanr>
+					<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+					<rok_vydani>2012</rok_vydani>
+					<cena>0.00</cena>
+					<mena>EUR</mena>
+				</hra>
+			</group>
+		</groups>
+	</wishlist>
+</wishlists>
+<platformy>
+	<platforma>
+		<id>0</id>
+		<nazev>Steam</nazev>
+		<stranka>https://store.steampowered.com/</stranka>
+	</platforma>
+</platformy>
+</user>
+
+<user VIP="true">
+	<id>7</id>
+	<jmeno>Adam</jmeno>
+	<prijmeni>Styl</prijmeni>
+	<uzivatelske_jmeno>Hawkn</uzivatelske_jmeno>
+	<email>stylada@email.cz</email>
+	<mobil>727895124</mobil>
+	<hry>	
+		<hra oblibene="true">
+		<id>2</id>
+		<titul>Counter-Strike: Global Offensive</titul>
+		<zanr>Střílečka</zanr>
+		<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+		<rok_vydani>2012</rok_vydani>
+		<cena>0.00</cena>
+		<mena>EUR</mena>
+		</hra>
+
+		<hra oblibene="false">
+			<id>6</id>
+			<titul>DEATH STRANDING</titul>
+			<zanr>Dobrodružné</zanr>
+			<popis>Hráči ovládají kurýra Sama Portera Bridgese, kterého ztvárnil herec Norman Reedus, a jehož úkolem je doručovat zásoby do izolovaných kolonií a znovu je propojit prostřednictvím bezdrátové komunikační sítě.</popis>
+			<rok_vydani>2019</rok_vydani>
+			<cena>39.99</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="false">
+			<id>4</id>
+			<titul>Terraria</titul>
+			<zanr>Sandbox</zanr>
+			<popis>Hra je zaměřená na průzkum světa, budování a boji s nepřáteli - hlavně tedy s bossy - v náhodně generovaném 2D světě.</popis>
+			<rok_vydani>2011</rok_vydani>
+			<cena>9.99</cena>
+			<mena>EUR</mena>
+		</hra>
+	</hry>
+<wishlists>
+	<wishlist verejny="true" aktivni="true">
+		<id>0</id>
+		<nazev>Nepojmenovaný</nazev>
+		<datum_vytvoreni>2021-01-08</datum_vytvoreni>
+		<groups>
+			<group vlastnictvi="false">
+				<id>0</id>
+				<hra oblibene="false">
+					<id>5</id>
+					<titul>God of War</titul>
+					<zanr>Dobrodružné</zanr>
+					<popis>Pomstu olympským bohům má Kratos již dávno za sebou a teď se pohybuje v říši severských bohů a netvorů. V tomto tvrdém a nelítostném světě bude muset bojovat o přežití a současně učit svého syna, aby dokázal totéž…</popis>
+					<rok_vydani>2022</rok_vydani>
+					<cena>49.99</cena>
+					<mena>EUR</mena>
+				</hra>
+			</group>
+		</groups>
+	</wishlist>
+</wishlists>
+<platformy>
+	<platforma>
+		<id>0</id>
+		<nazev>Steam</nazev>
+		<stranka>https://store.steampowered.com/</stranka>
+	</platforma>
+</platformy>
+</user>
+
+<user VIP="true">
+	<id>8</id>
+	<jmeno>Matěj</jmeno>
+	<prijmeni>Pařan</prijmeni>
+	<uzivatelske_jmeno>TopGamer</uzivatelske_jmeno>
+	<email>matparan58@post.cz</email>
+	<mobil>724568123</mobil>
+	<hry>	
+		<hra oblibene="true">
+			<id>2</id>
+			<titul>The Binding of Isaac</titul>
+			<zanr>Rogue-like</zanr>
+			<popis>The Binding of Isaac je akční RPG střílečka s náhodně generovanými úrovněmi se silnými elementy žánru Rogue-like. Během Isaacovy cesty bude hráč nacházet bizarní poklady, které změní samotnou Isaacovu podstatu, propůjčí mu superschopnosti a dovolí mu tak vymýtit neskutečné příšery, objevovat tajemství a probojovat si cestu ke svobodě.</popis>
+			<rok_vydani>2011</rok_vydani>
+			<cena>4.99</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="false">
+			<id>1</id>
+			<titul>Counter-Strike: Global Offensive</titul>
+			<zanr>Střílečka</zanr>
+			<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+			<rok_vydani>2012</rok_vydani>
+			<cena>0.00</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="false">
+			<id>3</id>
+			<titul>Portal 2</titul>
+			<zanr>FPS puzzle</zanr>
+			<popis>pokračování původní hry Portal, která byla v roce 2007 vydána pouze jako doplněk balíčku Orange box. Hlavní postavou hry je opět Chell, původně pouze testovací objekt v Aperture Science. Chell se tentokrát probouzí ve své stázové komoře a snaží se nadobro již opustit ruiny bývalého komplexu Aperture. Hra také nabízí hru více hráčů v kooperativním režimu. Dva hráči mohou hrát za roboty Atlas a P-Body vytvořené GLaDOS za účelem výzkumu bez rizika nevypočitatelných lidských faktorů chování. Každý hráč má vlastní portálovou pistoli a prochází jednotlivé místnosti společně.</popis>
+			<rok_vydani>2011</rok_vydani>
+			<cena>8.19</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="true">
+			<id>5</id>
+			<titul>God of War</titul>
+			<zanr>Dobrodružné</zanr>
+			<popis>Pomstu olympským bohům má Kratos již dávno za sebou a teď se pohybuje v říši severských bohů a netvorů. V tomto tvrdém a nelítostném světě bude muset bojovat o přežití a současně učit svého syna, aby dokázal totéž…</popis>
+			<rok_vydani>2022</rok_vydani>
+			<cena>49.99</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="false">
+			<id>6</id>
+			<titul>DEATH STRANDING</titul>
+			<zanr>Dobrodružné</zanr>
+			<popis>Hráči ovládají kurýra Sama Portera Bridgese, kterého ztvárnil herec Norman Reedus, a jehož úkolem je doručovat zásoby do izolovaných kolonií a znovu je propojit prostřednictvím bezdrátové komunikační sítě.</popis>
+			<rok_vydani>2019</rok_vydani>
+			<cena>39.99</cena>
+			<mena>EUR</mena>
+		</hra>
+		<hra oblibene="false">
+			<id>4</id>
+			<titul>Terraria</titul>
+			<zanr>Sandbox</zanr>
+			<popis>Hra je zaměřená na průzkum světa, budování a boji s nepřáteli - hlavně tedy s bossy - v náhodně generovaném 2D světě.</popis>
+			<rok_vydani>2011</rok_vydani>
+			<cena>9.99</cena>
+			<mena>EUR</mena>
+		</hra>
+	</hry>
+	<wishlists>
+		<wishlist verejny="true" aktivni="true">
+			<id>0</id>
+			<nazev>Zaklinac</nazev>
+			<datum_vytvoreni>2018-09-02</datum_vytvoreni>
+			<groups>
+				<group vlastnictvi="false">
+					<id>0</id>
+					<hra oblibene="false">
+						<id>0</id>
+						<titul>The Witcher: Enhanced Edition Director's Cut</titul>
+						<zanr>RPG</zanr>
+						<popis>Staňte se zaklínačem Geraltem z Rivie, legendárním zabijákem příšer lapeným v síti intrik, kterou splétají mocnosti usilující o nadvládu nad světem. Čiňte obtížná rozhodnutí a snášejte následky ve hře, která vás uchvátí mimořádným a jedinečným příběhem.</popis>
+						<rok_vydani>2008</rok_vydani>
+						<cena>9.99</cena>
+						<mena>EUR</mena>
+					</hra>
+				</group>
+			</groups>
+		</wishlist>
+	</wishlists>
+	<platformy>
+		<platforma>
+			<id>0</id>
+			<nazev>Steam</nazev>
+			<stranka>https://store.steampowered.com/</stranka>
+		</platforma>
+		<platforma>
+			<id>1</id>
+			<nazev>GOG</nazev>
+			<stranka>https://www.gog.com/</stranka>
+		</platforma>
+	</platformy>
+</user>
+
+<user VIP="true">
+	<id>9</id>
+	<jmeno>Michael</jmeno>
+	<prijmeni>Chudák</prijmeni>
+	<uzivatelske_jmeno>F2Player</uzivatelske_jmeno>
+	<email>michud99@gmail.com</email>
+	<mobil>724897193</mobil>
+	<hry>	
+		<hra oblibene="true">
+		<id>2</id>
+		<titul>Counter-Strike: Global Offensive</titul>
+		<zanr>Střílečka</zanr>
+		<popis>Counter-Strike: Global Offensive je počítačová online FPS. Hru vyvinulo Valve ve spolupráci s Hidden Path Entertainment. Hra navazuje na předchozí verze hry Counter-Strike. Je to v pořadí již čtvrtá hra ze série Counter-Strike.				</popis>
+		<rok_vydani>2012</rok_vydani>
+		<cena>0.00</cena>
+		<mena>EUR</mena>
+		</hra>
+	</hry>
+<wishlists>
+	<wishlist verejny="true" aktivni="true">
+		<id>0</id>
+		<nazev>top hry</nazev>
+		<datum_vytvoreni>2013-03-05</datum_vytvoreni>
+		<groups>
+			<group vlastnictvi="false">
+				<id>0</id>
+				<hra oblibene="false">
+					<id>5</id>
+					<titul>God of War</titul>
+					<zanr>Dobrodružné</zanr>
+					<popis>Pomstu olympským bohům má Kratos již dávno za sebou a teď se pohybuje v říši severských bohů a netvorů. V tomto tvrdém a nelítostném světě bude muset bojovat o přežití a současně učit svého syna, aby dokázal totéž…</popis>
+					<rok_vydani>2022</rok_vydani>
+					<cena>49.99</cena>
+					<mena>EUR</mena>
+				</hra>
+			</group>
+			<group vlastnictvi="false">
+				<id>1</id>
+				<hra oblibene="true">
+					<id>0</id>
+					<titul>Rise of the Tomb Raider</titul>
+					<zanr>Dobrodružné</zanr>
+					<popis>Rise of the Tomb Raider popisuje osudy Lary Croft a Jonaha Maiava v jejich pátrání po starověkém městě Kitezh na Sibiři, které bylo postaveno v 13. století, a jak Lara věří, skrývá tajemství k nesmrtelnosti. V závodě s Trinity, dobře financovanou organizací zajímající se o nadpřirozeno, musí Lara bojovat s lidmi, zvěří a přírodou, pokud chce najít pravdu, skrývající se za mýty a stát se tím, kým je předurčena se stát.</popis>
+					<rok_vydani>2015</rok_vydani>
+					<cena>29.99</cena>
+					<mena>EUR</mena>
+				</hra>
+			</group>
+			<group vlastnictvi="false">
+				<id>2</id>
+				<hra oblibene="false">
+					<id>2</id>
+					<titul>The Binding of Isaac</titul>
+					<zanr>Rogue-like</zanr>
+					<popis>The Binding of Isaac je akční RPG střílečka s náhodně generovanými úrovněmi se silnými elementy žánru Rogue-like. Během Isaacovy cesty bude hráč nacházet bizarní poklady, které změní samotnou Isaacovu podstatu, propůjčí mu superschopnosti a dovolí mu tak vymýtit neskutečné příšery, objevovat tajemství a probojovat si cestu ke svobodě.</popis>
+					<rok_vydani>2011</rok_vydani>
+					<cena>4.99</cena>
+					<mena>EUR</mena>
+				</hra>
+			</group>
+			<group vlastnictvi="false">
+				<id>3</id>
+				<hra oblibene="true">
+					<id>3</id>
+					<titul>Portal 2</titul>
+					<zanr>FPS puzzle</zanr>
+					<popis>pokračování původní hry Portal, která byla v roce 2007 vydána pouze jako doplněk balíčku Orange box. Hlavní postavou hry je opět Chell, původně pouze testovací objekt v Aperture Science. Chell se tentokrát probouzí ve své stázové komoře a snaží se nadobro již opustit ruiny bývalého komplexu Aperture. Hra také nabízí hru více hráčů v kooperativním režimu. Dva hráči mohou hrát za roboty Atlas a P-Body vytvořené GLaDOS za účelem výzkumu bez rizika nevypočitatelných lidských faktorů chování. Každý hráč má vlastní portálovou pistoli a prochází jednotlivé místnosti společně.</popis>
+					<rok_vydani>2011</rok_vydani>
+					<cena>8.19</cena>
+					<mena>EUR</mena>
+				</hra>
+			</group>
+			<group vlastnictvi="false">
+				<id>4</id>
+				<hra oblibene="false">
+					<id>5</id>
+					<titul>God of War</titul>
+					<zanr>Dobrodružné</zanr>
+					<popis>Pomstu olympským bohům má Kratos již dávno za sebou a teď se pohybuje v říši severských bohů a netvorů. V tomto tvrdém a nelítostném světě bude muset bojovat o přežití a současně učit svého syna, aby dokázal totéž…</popis>
+					<rok_vydani>2022</rok_vydani>
+					<cena>49.99</cena>
+					<mena>EUR</mena>
+				</hra>
+			</group>
+		</groups>
+	</wishlist>
+	<wishlist verejny="true" aktivni="true">
+		<id>1</id>
+		<nazev>gog prani</nazev>
+		<datum_vytvoreni>2018-08-01</datum_vytvoreni>
+		<groups>
+			<group vlastnictvi="false">
+				<id>0</id>
+				<hra oblibene="false">
+				<id>7</id>
+				<titul>The Witcher: Enhanced Edition Director's Cut</titul>
+				<zanr>RPG</zanr>
+				<popis>Staňte se zaklínačem Geraltem z Rivie, legendárním zabijákem příšer lapeným v síti intrik, kterou splétají mocnosti usilující o nadvládu nad světem. Čiňte obtížná rozhodnutí a snášejte následky ve hře, která vás uchvátí mimořádným a jedinečným příběhem.</popis>
+				<rok_vydani>2008</rok_vydani>
+				<cena>9.99</cena>
+				<mena>EUR</mena>
+			</hra>
+			</group>
+		</groups>
+	</wishlist>
+</wishlists>
+<platformy>
+	<platforma>
+		<id>0</id>
+		<nazev>Steam</nazev>
+		<stranka>https://store.steampowered.com/</stranka>
+	</platforma>
+</platformy>
+</user>
+
+</users>
